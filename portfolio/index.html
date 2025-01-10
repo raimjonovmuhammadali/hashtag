@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-100 font-sans">
+    <!-- Header -->
+    <header class="bg-gray-800 text-white py-4">
+      <div class="container mx-auto flex justify-between items-center px-4">
+        <h1 class="text-3xl font-bold">Mening Portfolio</h1>
+        <nav>
+          <ul class="flex space-x-4">
+            <li><a href="#about" class="hover:underline">Men Haqimda</a></li>
+            <li><a href="#projects" class="hover:underline">Loyihalar</a></li>
+            <li><a href="#contact" class="hover:underline">Bog'lanish</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-8">
+      <!-- About Section -->
+      <section id="about" class="flex items-center justify-between bg-white p-6 rounded-lg shadow-lg mb-8">
+        <div class="w-6/12">
+          <h2 class="text-2xl font-bold text-gray-800">Men Haqimda</h2>
+          <p class="text-gray-700 mt-4">
+            Men Raimjonov Muhammadali 2003 yil farg'ona shaxrida tug'ulganman. Men Frontend dasturchiman. 
+          </p>
+        </div>
+        <img src="./ozim 80x80.jpg" alt="" width="150px">
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="bg-white p-6 rounded-lg shadow-lg mb-8">
+        <h2 class="text-2xl font-bold text-gray-800">Loyihalar</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
+          <div class="bg-gray-100 p-4 rounded-lg shadow-md">
+            <img src="./1.png" alt="">
+            <h3 class="text-xl font-semibold text-gray-800">Dad Urolog</h3>
+            <p class="text-gray-600 mt-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis blanditiis tenetur minima, quidem id labore, nemo, quos nostrum consectetur reiciendis voluptate! Obcaecati, aliquid! Est, voluptatem. Ut et blanditiis facere eos.
+            </p>
+          </div>
+          <div class="bg-gray-100 p-4 rounded-lg shadow-md">
+            <img src="./1.png" alt="">
+            <h3 class="text-xl font-semibold text-gray-800">Dad Urolog</h3>
+            <p class="text-gray-600 mt-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis blanditiis tenetur minima, quidem id labore, nemo, quos nostrum consectetur reiciendis voluptate! Obcaecati, aliquid! Est, voluptatem. Ut et blanditiis facere eos.
+            </p>
+          </div>
+          <div class="bg-gray-100 p-4 rounded-lg shadow-md">
+            <img src="./1.png" alt="">
+            <h3 class="text-xl font-semibold text-gray-800">Dad Urolog</h3>
+            <p class="text-gray-600 mt-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis blanditiis tenetur minima, quidem id labore, nemo, quos nostrum consectetur reiciendis voluptate! Obcaecati, aliquid! Est, voluptatem. Ut et blanditiis facere eos.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="bg-white p-6 rounded-lg shadow-lg">
+        <h2 class="text-2xl font-bold text-gray-800">Bog'lanish</h2>
+        <form class="mt-4 space-y-4">
+          <div>
+            <label for="name" class="block text-gray-700">Ism:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              class="w-full border border-gray-300 rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            />
+          </div>
+          <div>
+            <label for="email" class="block text-gray-700">Email:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              class="w-full border border-gray-300 rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            />
+          </div>
+          <div>
+            <label for="message" class="block text-gray-700">Xabar:</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="4"
+              class="w-full border border-gray-300 rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            ></textarea>
+          </div>
+          <button
+            type="submit"
+            class="bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600"
+          >
+            Yuborish
+          </button>
+        </form>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-4">
+      <div class="container mx-auto text-center">
+        <p>&copy; 2025 Mening Portfolio. Barcha huquqlar himoyalangan.</p>
+      </div>
+    </footer>
+  </body>
+</html>
